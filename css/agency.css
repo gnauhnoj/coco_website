@@ -180,7 +180,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #3366cc;
+    color: #fff;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -270,7 +270,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     /*NEED TO CHANGE HEADER*/
-    background-image: url(../img/header-bg2.jpg);
+    background-image: url(../img/test-header.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -1001,4 +1001,8 @@ body {
 
 .img-responsive {
     margin: 0 auto;
+}
+
+.fill {
+    background-color: rgba(51, 102, 204, 0.6);
 }
